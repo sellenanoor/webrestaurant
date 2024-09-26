@@ -1,0 +1,497 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pesto's Restaurant</title>
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--nav-->
+        <div class="nav conatiner">
+            <!--logo-->
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="">
+            </a>
+            <!--navbar-->
+            <div class="navbar">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#feature-menu " class="nav-link">Featured Items</a>
+                <a href="#menu-container" class="nav-link">Menu</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#" class="nav-link">Blog</a>
+            </div>
+            <!--nav icons-->
+            <div class="nav-icons">
+                <a href="#" class="user">
+                    <i class='bx bx-user'></i></a>
+                    <button id="cart-icon">
+                        <i class='bx bx-shopping-bag'></i>
+                        <span id="cart-count">0</span>
+                    </button>
+                <!--menu icon-->
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--home-->
+    <section class="home" id="home">
+        <div class="home-content container">
+            <div class="home-text">
+                <h1>
+                    Grilled Beef <br>
+                    burger
+                </h1>
+                <p>special deal only on tuesday every week</p>
+                <h3>buy 1 get one free</h3>
+                <a href="#items" class="btn" >Order Now</a>
+            </div>
+            <!--home image-->
+            <img src="images/home.png" alt="" class="home-img">
+        </div>
+        <!--home mask img-->
+        <img src="images/home-mask.png" alt="" class="home-mask">
+    </section>
+    <!--features-->
+    <div class="features-container">
+        <div class="feature-box">
+            <img src="images/feature-1.svg" alt="" class="feature-img">
+            <div class="feature-text">
+                <h3>Premium Material</h3>
+                <p>Made From Premium Materials</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <img src="images/feature-2.svg" alt="" class="feature-img">
+            <div class="feature-text">
+                <h3>Fast Delivery</h3>
+                <p>Receive goods in 45 minute</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <img src="images/feature-3.svg" alt="" class="feature-img">
+            <div class="feature-text">
+                <h3>Timely Delivery</h3>
+                <p>Professional & friendly Service</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <img src="images/feature-4.svg" alt="" class="feature-img">
+            <div class="feature-text">
+                <h3>Secure Payment</h3>
+                <p>Car Parking</p>
+            </div>
+        </div>
+    </div>
+    <section class="feature-menu container" id="feature-menu">
+        <h2 class="heading">Pesto's Featured Menu</h2>
+        <div class="feature-menu-content">
+            <div class="feature-menu-box">
+                <img src="images/feature-menu-1.png" alt="">
+                <h3>BBQ</h3>
+                <p>(4 Items)</p>
+            </div>
+            <div class="feature-menu-box">
+                <img src="images/feature-menu-2.png" alt="">
+                <h3>Burgers</h3>
+                <p>(8 Items)</p>
+            </div>
+            <div class="feature-menu-box">
+                <img src="images/feature-menu-3.png" alt="">
+                <h3>Chickens</h3>
+                <p>(4 Items)</p>
+            </div>
+            <div class="feature-menu-box">
+                <img src="images/feature-menu-4.png" alt="">
+                <h3>Drinks</h3>
+                <p>(4 Items)</p>
+            </div>
+            <div class="feature-menu-box">
+                <img src="images/feature-menu-5.png" alt="">
+                <h3>Fish</h3>
+                <p>(4 Items)</p>
+            </div>
+            <div class="feature-menu-box">
+                <img src="images/feature-menu-6.png" alt="">
+                <h3>Pizzas</h3>
+                <p>(4 Items)</p>
+            </div>
+        </div>
+    </section>
+    <!--items-->
+    <section class="items" id="items">
+        <h2 class="heading container">Our Featured Items</h2>
+        <div class="item-content container">
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-1.png" alt="Spicy Burger">
+                <h2>Spicy Burger</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Spicy Burger" data-price="20000" data-image="images/item-1.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-2.png" alt="Mutton BBQ">
+                <h2>Mutton BBQ</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Mutton BBQ" data-price="20000" data-image="images/item-2.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-3.png" alt="Beef Burger">
+                <h2>Beef Burger</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Beef Burger" data-price="20000" data-image="images/item-3.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-4.png" alt="Chicken With Bacon">
+                <h2>Chicken With Bacon</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Chicken With Bacon" data-price="20000" data-image="images/item-4.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-5.png" alt="Tiny Quies Fish">
+                <h2>Tiny Quies Fish</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Tiny Quies Fish" data-price="20000" data-image="images/item-5.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-6.png" alt="Mixes Pizza">
+                <h2>Mixes Pizza</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Mixes Pizza" data-price="20000" data-image="images/item-6.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-7.png" alt="Meta Burger">
+                <h2>Meta Burger</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Meta Burger" data-price="20000" data-image="images/item-7.png">Add to cart</button>
+            </div>
+            <div class="item-box">
+                <span class="sale">Sale</span>
+                <img src="images/item-8.png" alt="Chicken Tiny">
+                <h2>Chicken Tiny</h2>
+                <div class="price">
+                    <h3>From Rp 20.000</h3>
+                    <p>Rp 30.000</p>
+                </div>
+                <button class="item-btn" data-name="Chicken tiny" data-price="20000" data-image="images/item-8.png">Add to cart</button>
+            </div>
+        </div>
+
+        <div id="cart-popup" class="hidden">
+            <div class="popup-content">
+                <span id="close-popup">&times;</span>
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items"></ul>
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="total-amount">0</span>
+                </div>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+
+    </section>
+    <!--menu-->
+    <section class="menu-container" id="menu-container">
+        <h2 class="heading container ">Pesto's Featured Menu Board</h2>
+        <img src="images/menu-mask.png" alt="" class="menu-mask">
+        <div class="menu-content container">
+            <div class="menu-box">
+                <h2>Burgers</h2>
+                <div class="burgers-content">
+                    <div class="m-item-box">
+                        <img src="images/burger-1.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Metta Burger</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-item-box" data-name="Spicy Metta Burger" data-price="20.00" data-image="images/burger-2.png">
+                        <img src="images/burger-2.png" alt="Spicy Metta Burger">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Spicy Metta Burger</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-item-box">
+                        <img src="images/burger-3.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Spicy Burger</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-item-box">
+                        <img src="images/burger-4.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Beef Burger</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <h2>BBQ</h2>
+                <div class="bbq-content">
+                    <div class="m-item-box">
+                        <img src="images/bbq-1.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Mutton BBQ</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-item-box">
+                        <img src="images/bbq-2.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Chicken BBQ</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-item-box">
+                        <img src="images/bbq-3.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Beef BBQ</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-item-box">
+                        <img src="images/bbq-4.png" alt="">
+                        <div class="m-item-right">
+                            <div class="m-item-des">
+                                <h3>Kachi BBQ</h3>
+                                <p>Size: Medium Small Large Spices: Regular Spicy Medium </p>
+                            </div>
+                            <div class="m-item-price">
+                                <h3>From Rp 20.000</h3>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonials-->
+    <section class="testimonials" id="testimonials">
+        <h2 class="heading container">Testimonials</h2>
+        <div class="testimonials-content container">
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amazing burger chains we have eaten at! customer
+                    service is also good. Beautiful Presentation, amazing taste, and
+                    good staff, awesome. their mac mince cheeseburger with olive sauce
+                    is very tasty."
+                </p>
+                <div class="profile">
+                    <img src="images/profile-1.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfred</h3>
+                        <span>Hair Stylist</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"They make my favorite burgers. i can't find a better one. i pretty 
+                    much love big king XXL, the best in the world! healthy choices and
+                    consciousness of the environment. everything was delicious"
+                </p>
+                <div class="profile">
+                    <img src="images/profile-2.png" alt="">
+                    <div class="profile-data">
+                        <h3>Smith Parker</h3>
+                        <span>Art Director</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amazing burger chains we have eaten at! customer
+                    service is also good. Beautiful Presentation, amazing taste, and
+                    good staff, awesome. their mac mince cheeseburger with olive sauce
+                    is very tasty."
+                </p>
+                <div class="profile">
+                    <img src="images/profile-3.png" alt="">
+                    <div class="profile-data">
+                        <h3>David john</h3>
+                        <span>Hair Stylist</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amazing burger chains we have eaten at! customer
+                    service is also good. Beautiful Presentation, amazing taste, and
+                    good staff, awesome. their mac mince cheeseburger with olive sauce
+                    is very tasty."
+                </p>
+                <div class="profile">
+                    <img src="images/profile-4.png" alt="">
+                    <div class="profile-data">
+                        <h3>johnathan Parker</h3>
+                        <span>Art Director</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--newsletter-->
+    <section class="newsletter container" id="newsletter">
+        <h2>Subscribe And get 10% Discount</h2>
+        <P>Be the first to get the latest news, promotions and much more</P>
+        <form action="">
+            <input type="email" name="" id="" class="email" placeholder="Email" required>
+            <input type="submit" value="Subscribe" class="s-btn">
+        </form>
+    </section>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-content container">
+            <div class="footer-box">
+                <a href="#" class="footer-logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <p>925 bald Hill St, Asheville, NC 28803</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest-alt'></i></a>
+                </div>       
+            </div>
+            <div class="footer-box">
+                <h3>Opening Hours</h3>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Tue</span>: 9:00 - 20:30</p>
+                <p><span>Wed</span>: 9:00 - 20:30</p>
+                <p><span>Thu</span>: 9:00 - 20:30</p>
+                <p><span>Fri</span>: 9:00 - 20:30</p>
+                <p><span>Sat</span>: 9:00 - 20:30</p>
+                <p><span>Sun</span>Closed</p>
+            </div>
+            <div class="footer-box">
+                <h3>Information</h3>
+                <a href="#">About US</a>
+                <a href="#">Blog</a>
+                <a href="#">Pesto's Gallery</a>
+                <a href="#">Pesto's Talent Chefs</a>
+                <a href="#">Testimonials</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact Us</h3>
+                <p>+621234567890</p>
+                <p>support@domain.com <br>
+                    support@domain.com
+                </p>
+                <p>Address: 123 Suspendis matti, Visaosang Building VST District, Nort American</p>
+            </div>
+        </div>
+        <div class="copyright">&#169; 2024, Pesto Restaurant</div>
+    </div>
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--link to js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
